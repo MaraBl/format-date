@@ -1,0 +1,24 @@
+{
+  "name": "format-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaraBl/format-date.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaraBl/format-date/issues"
+  },
+  "homepage": "https://github.com/MaraBl/format-date#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "onchange": "^6.1.0"
+  }
+}
